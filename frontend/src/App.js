@@ -87,6 +87,7 @@ function App() {
 				case 'consumer':
 					tx = await instance.methods.assignMeAsConsumer().send({from: context.account})
 					break;
+				default: break;
 			}
 
 			addTxToLogs(tx)
@@ -118,6 +119,8 @@ function App() {
 				case 'consumer':
 					tx = await instance.methods.renounceMeFromConsumer().send({from: context.account})
 					break
+				default:
+					break;
 			}
 
 			addTxToLogs(tx)
@@ -244,6 +247,8 @@ function App() {
 						document.getElementsByName("partnerStateUDPC")[0].value
 					).send({from: context.account})
 				break
+				default: 
+				break;
 			}
 			addTxToLogs(tx)
 		} catch(err) {

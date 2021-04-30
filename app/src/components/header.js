@@ -18,6 +18,8 @@ export default (props) => {
 
     const items = [];
 
+    items.push({label: 'covid-charts'})
+
     roles.forEach((item) => {
       if (item.status){
         items.push({label: item.role});
@@ -35,7 +37,7 @@ export default (props) => {
  
   return (
     <AppNavBar
-      title="Vaccine/Drug Supply Chain"
+      title="VAC CHAIN"
       mainItems={mainItems}
       onMainItemSelect={item => {
         setMainItems(prev => setItemActive(prev, item));

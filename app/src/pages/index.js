@@ -5,8 +5,9 @@ import OwnerPage from './owner';
 import DistributorPage from './distributor';
 import RetailerPage from './retailer';
 import ConsumerPage from './consumer';
+import CovidChartsPage from './covid-charts';
 
 export { DesignerPage, RegulatorPage, ManufacturerPage, 
          OwnerPage, DistributorPage, RetailerPage, 
-         ConsumerPage 
+         ConsumerPage, CovidChartsPage
         };

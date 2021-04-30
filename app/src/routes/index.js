@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AuthRoute from './authRoute';
 import Header from '../components/header';
-import { DesignerPage, RegulatorPage, ManufacturerPage, OwnerPage , DistributorPage, RetailerPage, ConsumerPage } from '../pages';
+import { DesignerPage, RegulatorPage, ManufacturerPage, OwnerPage , DistributorPage, RetailerPage, ConsumerPage, CovidChartsPage } from '../pages';
 
 
 export default (props) => {
@@ -28,6 +28,9 @@ export default (props) => {
             <Switch>
                 <Route exact path="/">
                     <div>Home</div>
+                </Route>
+                <Route exact path="/covid-charts">
+                    <CovidChartsPage />
                 </Route>
                 <AuthRoute exact path="/designer" roles={roles}>
                     <DesignerPage />

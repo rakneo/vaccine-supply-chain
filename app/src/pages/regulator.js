@@ -127,7 +127,7 @@ export default (props) => {
             size={SIZE.default}
             role={ROLE.dialog}
         >
-            <ModalHeader>Add New Drug Test Case</ModalHeader>
+            <ModalHeader>Approve Drug</ModalHeader>
             <ModalBody>
                 <FormControl
                     label={"UDPC"}
