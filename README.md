@@ -1,4 +1,4 @@
-# drug-supply-chain
+# vaccine-supply-chain
 An Ethereum DApp that demonstrates a Supply Chain flow from a Designer of a drug along to the end user Buyer(consumer). Regulator whos responsable for approve the drug. Manufacturer can act as a owner of a drug design or bulid partner contract with a designer. A Distributor should act as middleman between manufacturer to retailer to last actor in the system consumer.
 
 [Live demo on rinkeby network.](https://drugn-drugz-ukdhcdvqtk.now.sh/)
@@ -95,9 +95,7 @@ cd frontend && npm start
 
 ---
 ## Built With ❤️ Using:
-* [**Udacity**](https://www.udacity.com/) 
 * [**Ethereum**](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts.
 * [**Truffle**](https://truffleframework.com/) - development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM).
 * [**OpenZeppelin**](https://openzeppelin.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
-* [**React**](https://openzeppelin.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
-* [**OpenZeppelin**](https://openzeppelin.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
+* [**React**](https://reactjs.org/) -  A library for secure smart contract development. It provides implementations of standards like ERC20 and Ownable.
