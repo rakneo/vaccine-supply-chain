@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "baseui": "^9.102.0",
+    "baseui": "^9.116.3",
     "chart.js": "^2.9.4",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
