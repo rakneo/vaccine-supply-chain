@@ -4281,10 +4281,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-baseui@^9.102.0:
-  version "9.102.0"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.102.0.tgz#e272dc1c4acdf2193fe0e81a88ef8317b7625502"
-  integrity sha512-j5zQHqQWHcxOq1xT/omicRwbmdmUxfQ6uN61IoO/4kpqhFH79DMvUzhpmhapeXWxEDZcTvW3R31vcWQ2Yn3POg==
+baseui@^9.116.3:
+  version "9.116.3"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-9.116.3.tgz#a26b70b325ec583d5c6c2512d925f50288f1c97d"
+  integrity sha512-vpI47GRJ7N6Lt+r8tAip747eM3M1RwaFi9hyVJpPRDS7CUX2N7nRWLVSMrBZ75ZeEejWvIQ6WrLNnf1eTXwZ3Q==
   dependencies:
     "@date-io/date-fns" "^2.6.2"
     card-validator "^6.2.0"
@@ -4292,16 +4292,15 @@ baseui@^9.102.0:
     glob "^7.1.6"
     just-extend "^4.0.2"
     memoize-one "^5.1.1"
-    next-transpile-modules "^3.3.0"
     polished "^3.2.0"
     popper.js "^1.16.0"
     react-dropzone "^9.0.0"
     react-focus-lock "^2.2.1"
     react-input-mask "^2.0.4"
     react-is "^16.8.6"
-    react-movable "^2.4.0"
+    react-movable "^2.5.4"
     react-multi-ref "^1.0.0"
-    react-range "^1.7.0"
+    react-range "^1.8.0"
     react-uid "^2.3.0"
     react-virtualized "^9.21.1"
     react-virtualized-auto-sizer "^1.0.2"
@@ -4529,7 +4528,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-braces@^3.0.1, braces@~3.0.2:
+braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
@@ -10650,14 +10649,6 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-micromatch@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
-  integrity sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==
-  dependencies:
-    braces "^3.0.1"
-    picomatch "^2.0.5"
-
 miller-rabin@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/miller-rabin/-/miller-rabin-4.0.1.tgz#f080351c865b0dc562a8462966daa53543c78a4d"
@@ -11053,14 +11044,6 @@ next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
-
-next-transpile-modules@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-3.3.0.tgz#90f197d1ceda2a2ce7a4f423b262320354456abf"
-  integrity sha512-QIaBunwtC9oNaluQvfJw5hv1uXSAlTzDCc7/FUxZw5Rnm0yo1HJjW6YodFvA+7Xm9k/2fZV2itF99vMBwTOUjQ==
-  dependencies:
-    micromatch "^4.0.2"
-    slash "^3.0.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -11927,7 +11910,7 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1:
+picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
@@ -13238,10 +13221,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-movable@^2.4.0:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/react-movable/-/react-movable-2.5.1.tgz#a17176e9c6e95ad4c5207b3e7eccd75dff993389"
-  integrity sha512-9aqzLEdCnZQUqAK38+SVQRgmsrriqT4rZpUm29p5oeTka+nLb+NNcbNzng9Xp8hv3yADGUMl04u/pRbZGyY1rA==
+react-movable@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/react-movable/-/react-movable-2.5.4.tgz#1c28e8291476ab19b8625d06b60f97a89dd85a45"
+  integrity sha512-F+Ml4Il9S7uyY2Nr/UzwnXxWewwsHdQkmwgzAjk+Dsz73sy2yCJk7GkQkdqmh8W6XXTlviepz1VA0eHUWh9MZQ==
 
 react-multi-ref@^1.0.0:
   version "1.0.0"
@@ -13250,10 +13233,10 @@ react-multi-ref@^1.0.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
 
-react-range@^1.7.0:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/react-range/-/react-range-1.8.2.tgz#0d22961d65917777ef7f66228147d6752aeccef9"
-  integrity sha512-zegXW7xgWn/4HQ9EqFsxrFamx1rN/CDcG0a7v0dDYb975IG1l7yycQE02CXfWtclM0pUzSZa0iop3zHLPWyyMw==
+react-range@^1.8.0:
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/react-range/-/react-range-1.8.14.tgz#11047f69b365ac6c75c3d715771ebe76b93982ec"
+  integrity sha512-v2nyD5106rHf9dwHzq+WRlhCes83h1wJRHIMFjbZsYYsO6LF4mG/mR3cH7Cf+dkeHq65DItuqIbLn/3jjYjsHg==
 
 react-router-dom@^5.2.0:
   version "5.2.0"
