@@ -1,0 +1,94 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > lodash
+    - react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app >
+          @babel/plugin-proposal-class-properties >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - web3-react > @walletconnect/web3-subprovider > web3-provider-engine > eth-json-rpc-middleware > ethereumjs-block > async > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-react > @walletconnect/web3-subprovider > web3-provider-engine >
+          eth-json-rpc-middleware > ethereumjs-block > async > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > @babel/generator > lodash
+    - react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app >
+          @babel/plugin-proposal-class-properties >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-replace-supers > @babel/traverse > @babel/generator >
+          lodash
+    - web3-react > @walletconnect/web3-subprovider > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-block > async > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-react > @walletconnect/web3-subprovider > web3-provider-engine >
+          eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-block >
+          async > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - rimble-ui > @svgr/rollup > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          rimble-ui > @svgr/rollup > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > @babel/generator > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+    - rimble-ui > @svgr/rollup > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-11-28T18:31:58.760Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          rimble-ui > @svgr/rollup > @babel/preset-env >
+          @babel/plugin-transform-async-to-generator >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
