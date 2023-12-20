@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@ethersproject/providers": "^5.0.12",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^10.1.0",
     "@testing-library/user-event": "^7.1.2",
     "baseui": "^9.102.0",
     "chart.js": "^2.9.4",
