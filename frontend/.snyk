@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - web3-react > @0x/subproviders > web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2024-01-23T19:29:06.053Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-react > @0x/subproviders > web3-provider-engine >
+          ethereumjs-block > async > lodash
