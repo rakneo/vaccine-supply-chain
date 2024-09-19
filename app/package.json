@@ -18,7 +18,7 @@
     "react-scripts": "5.0.0",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7",
-    "web3": "^4.0.1",
+    "web3": "^4.13.0",
     "web3-react": "^4.0.1"
   },
   "scripts": {
